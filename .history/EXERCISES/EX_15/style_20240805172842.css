@@ -26,11 +26,12 @@ align-items:center;
   background-color: rgb(109, 171, 212);
   justify-content: center;
   align-items: center;
+
 }
 
  .item
  {
-  display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 list-style: none;
@@ -41,16 +42,12 @@ border: solid 2px indigo;
 }
 .setor-um
 {
-width: 600px;
-height: 100px;
+ width: 200px;
+height: 250px;
 grid-column: 1 / span 2;
-grid-row-start: 1;
-
 }
 .setor-dois
 {
-width: 300px;
-height: 350px;
   grid-row: 1 / span 3;
 }
 
