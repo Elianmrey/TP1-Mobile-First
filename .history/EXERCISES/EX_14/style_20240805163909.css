@@ -25,9 +25,8 @@ align-items:center;
 }
 .container-central
 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns:  1fr 1fr ;
   border: groove 5px blue;
   gap: 10px;
   width: 750px;

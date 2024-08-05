@@ -27,13 +27,12 @@ align-items:center;
 {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: ;
   border: groove 5px blue;
   gap: 10px;
   width: 750px;
   height: 200px;
   justify-content: space-around;
-  align-items: center;
   background-color: rgb(148, 120, 224);
 }
  .item

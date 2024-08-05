@@ -15,7 +15,9 @@ align-items:center;
 
 .container-principal
 {
-  display: flex;
+  display: grid;
+  grid-template-columns:  1fr 1fr 2fr 2fr;
+  grid-template-rows:  2fr 1fr 2fr;
   justify-content: center;
   gap: 10px;
   border: groove 5px rgb(36, 29, 107);

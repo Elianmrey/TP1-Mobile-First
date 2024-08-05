@@ -26,14 +26,12 @@ align-items:center;
 .container-central
 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   border: groove 5px blue;
   gap: 10px;
-  width: 750px;
+  width: 350px;
   height: 200px;
   justify-content: space-around;
-  align-items: center;
   background-color: rgb(148, 120, 224);
 }
  .item
