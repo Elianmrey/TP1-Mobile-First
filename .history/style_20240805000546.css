@@ -1,0 +1,34 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.titulo
+{
+  text-align: center;
+ }
+ h2{}
+.menu
+{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.element:hover
+{
+background-color: whitesmoke;
+border: groove 4px indigo;
+padding: 10px;
+border-radius: 10px;
+transition: all 0.2s;
+}
+
+.home-link{
+  color: rgb(8, 102, 224);
+  text-decoration: none;
+  font-size: large;
+
+}

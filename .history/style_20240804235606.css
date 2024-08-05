@@ -1,0 +1,21 @@
+.menu
+{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.element:hover
+{
+background-color: whitesmoke;
+border: groove 4px indigo;
+padding: 5
+
+}
+
+.home-link{
+  color: rgb(233, 71, 71);
+  text-decoration: none;
+  font-size: large;
+  font-family: sans-serif;
+}

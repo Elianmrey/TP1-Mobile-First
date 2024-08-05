@@ -1,0 +1,38 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: groove 5px rgb(36, 29, 107);
+  padding: 5%;
+}
+
+ .itens-iguais
+ {
+  flex-basis: auto;
+display: flex;
+width: 300px;
+list-style: none;
+font-family: sans-serif;
+font-weight: 600;
+border: solid 2px yellowgreen;
+}
+
+.it-diferente
+{
+flex-basis: 200px;
+border: solid 2px indigo;
+}
+
+.link-home
+{
+  text-decoration: none;
+  border: solid 5px ;
+
+}

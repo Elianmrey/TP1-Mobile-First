@@ -1,0 +1,20 @@
+html
+{
+margin: 0;
+padding: 0;
+}
+
+.container
+{
+  display: flex;
+}
+
+.menu
+{
+display: flex;
+flex-direction: row-reverse;
+list-style: none;
+gap: 10px;
+font-family: sans-serif;
+font-weight: 600;
+}

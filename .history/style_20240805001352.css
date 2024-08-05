@@ -1,0 +1,38 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.titulo
+{
+  text-align: center;
+ }
+ .home-titulo{
+  display: block;
+  box-shadow:  10px 20px 50px  gray;
+ }
+.menu
+{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.element:hover
+{
+background-color: rgb(198, 127, 245);
+border: groove 4px indigo;
+padding: 5px;
+border-radius: 10px;
+color:white
+transition: all 0.2s;
+}
+
+.home-link{
+  color: rgb(8, 102, 224);
+  text-decoration: none;
+  font-size: large;
+
+}

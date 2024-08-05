@@ -1,0 +1,32 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+.container
+{
+  display: flex;
+}
+
+.menu
+{
+display: flex;
+flex-direction: row-reverse;
+list-style: none;
+gap: 10px;
+font-family: sans-serif;
+font-weight: 600;
+}
+
+.link-home
+{
+  position: absolute;
+  margin: 10px;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  border: solid 5px gainsboro;
+  border-radius: 10px;;
+  background: linear-gradient(45deg, rgb(6, 110, 245), rgb(74, 1, 133))
+}

@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item {
+    flex: 1;
+    margin: 5px;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.item-special {
+    flex-shrink: 1; /* Encolhe menos em relação aos outros itens */
+}
