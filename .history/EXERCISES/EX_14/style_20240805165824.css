@@ -16,18 +16,29 @@ align-items:center;
 .container-principal
 {
   display: grid;
-  grid-template-columns:  2fr 2fr 2fr 2fr;
-  grid-template-rows:  2fr 2fr 2fr;
+  grid-template-columns:  1fr 1fr 2fr 2fr;
+  grid-template-rows:  2fr 1fr 2fr;
   justify-content: center;
   gap: 10px;
   border: groove 5px rgb(36, 29, 107);
   padding: 5%;
   width: 1000px;
   background-color: rgb(109, 171, 212);
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
+/* .container-central
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: groove 5px blue;
+  gap: 10px;
+  width: 750px;
+  height: 200px;
 
+  background-color: rgb(148, 120, 224);
+}*/
  .item
  {
 display: flex;
